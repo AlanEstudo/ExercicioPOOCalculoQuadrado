@@ -38,7 +38,8 @@ public class Quadrado {
     public float calculaArea() {
         return altura * largura;
     }
-    public float calculaPerimetro(){
-       return largura * 4; 
+
+    public float calculaPerimetro() {
+        return 4 * largura;
     }
 }
